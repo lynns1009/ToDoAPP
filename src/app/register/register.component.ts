@@ -2,8 +2,7 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 import { AngularFireAuth} from 'angularfire2/auth';
 import { AngularFireList} from 'angularfire2/database';
 import { AngularFireObject} from 'angularfire2/database';
-import { AngularFireAuthModule, AUTH_PROVIDERS} from 'angularfire2/auth';
-import { FirebaseListObservable } from 'angularfire2/database-deprecated';
+import { AngularFireAuthModule} from 'angularfire2/auth';
 import { FormsModule, ReactiveFormsModule, FormGroup,FormControl } from '@angular/forms';
 import {Router} from '@angular/router';
 import * as firebase from 'firebase/app'
